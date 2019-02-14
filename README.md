@@ -21,10 +21,9 @@ The implemented Plugin Settings (you could at many more):
 - Create a new Region based on the Plugin
 - Add a SQL Statement like the example below. As this is the easiest example possible, you have to name the columns exactly like the example (both naming and lowercase). These column aliases are used to construct the correct JSON object.
 ```
-select   sum(TOTAL) "value" , 
-          TO_CHAR(FLEET_HISTORY_CALC_DATE, 'Month YYYY ')  "group"
-       from   emp
-       join dept on emp.deptno = dept.deptno
+select   sum(salary) "value" , 
+          TO_CHAR(DATE, 'Month YYYY ')  "group"
+       from   hist
 order by 2 
 ```
 
