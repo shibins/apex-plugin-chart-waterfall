@@ -1,5 +1,5 @@
 # Oracle APEX Region Plugin - Watterfall Chart 
-Region Plugin to demonstrate the integration of JET Charts not currently exposed in APEX.
+Region Plugin to demonstrate the integration of JET Charts in APEX.
 
 
 ## Changelog
