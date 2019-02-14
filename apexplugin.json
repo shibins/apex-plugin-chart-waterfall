@@ -1,0 +1,34 @@
+{
+  "name" : "JET Waterfall Chart",
+  "version" : "1.0.0",
+  "description" : "Region Plugin to show a JET Waterfall Chart based on a SQL statement.",
+  "keywords" : ["JET","Chart","APEX"],
+  "homepage" : "https://github.com/shibins/apex-plugin-chart-waterfall",
+  "bugs" : {
+    "url" : "https://github.com/shibins/apex-plugin-chart-waterfall/issues",
+    "email" : "shibi.ns@gmail.com"
+  },
+  "license" : "MIT",
+  "author" : {
+    "name" : "Shibi Nirappel Sridharan",
+    "email" : "shibi.ns@gmail.com",
+    "url" : "http://shibins.blogspot.com",
+    "twitter" : "nsshibi",
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/shibins/apex-plugin-chart-waterfall.git"
+  },
+  "oracle" : {
+    "versions" : ["11.2.0.1", "12.1.0.1", "12.2.0.1"],
+    "apex" : {
+      "versions" : ["5.1.0,5.1.1,5.1.2+"],
+      "plugin" : {
+        "internalName" : "COM.ORACLE.APEX.JET.WATERFALL",
+        "type" : "region",
+        "demo" : "https://apex.oracle.com/pls/apex/f?p=100:100",
+        "previewImage" : "https://github.com/shibins/apex-plugin-chart-waterfall/raw/master/preview.png"
+      }
+    }
+  }
+}
