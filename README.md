@@ -15,7 +15,7 @@ Region Plugin to demonstrate the integration of JET Charts in APEX.
 
 ## Plugin Settings
 
-The implemented Plugin Settings (you could at many more):
+The implemented Plugin Settings :
 
 ## How to use
 - Create a new Region based on the Plugin
