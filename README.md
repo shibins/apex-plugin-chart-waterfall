@@ -20,6 +20,8 @@ The implemented Plugin Settings (you could at many more):
 ## How to use
 - Create a new Region based on the Plugin
 - Add a SQL Statement like the example below. As this is the easiest example possible, you have to name the columns exactly like the example (both naming and lowercase). These column aliases are used to construct the correct JSON object.
+Note :  the cloumn alias has to be "group" and "value"
+
 ```
 select   sum(salary) "value" , 
           TO_CHAR(DATE, 'Month YYYY ')  "group"
