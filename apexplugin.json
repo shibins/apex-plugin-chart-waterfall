@@ -1,7 +1,7 @@
 {
   "name" : "JET Waterfall Chart",
   "version" : "1.0.0",
-  "description" : "Region Plugin to show a JET Waterfall Chart based on a SQL statement.",
+  "description" : "Region Plugin to for  a JET based  Chart Waterfall using SQL statement.",
   "keywords" : ["JET","Chart","APEX"],
   "homepage" : "https://github.com/shibins/apex-plugin-chart-waterfall",
   "bugs" : {
